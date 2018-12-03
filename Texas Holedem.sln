@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texas Holedem.UI", "Texas Holedem.UI\Texas Holedem.UI.csproj", "{4ADAB2AE-6445-4D19-AC3A-A281CAE2ED6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texas Heldom.Library", "Texas Heldom.Library\Texas Heldom.Library.csproj", "{31CF75F8-0050-421C-B466-D3E4BFD4ED98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4ADAB2AE-6445-4D19-AC3A-A281CAE2ED6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ADAB2AE-6445-4D19-AC3A-A281CAE2ED6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ADAB2AE-6445-4D19-AC3A-A281CAE2ED6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31CF75F8-0050-421C-B466-D3E4BFD4ED98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CF75F8-0050-421C-B466-D3E4BFD4ED98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CF75F8-0050-421C-B466-D3E4BFD4ED98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CF75F8-0050-421C-B466-D3E4BFD4ED98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
