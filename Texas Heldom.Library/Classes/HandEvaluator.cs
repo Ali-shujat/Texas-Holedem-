@@ -15,9 +15,9 @@ namespace Texas_Heldom.Library.Classes
         public Hands HandValue;
         public Suits Suit;
         public Values HighCard1 { get; set; }
-        private Values HighCard2 { get; set; }
+        public Values HighCard2 { get; set; }
         private List<Values> Kickers { get; set; }
-        private List<Card> evalHand = new List<Card>();
+        private readonly List<Card> evalHand = new List<Card>();
 
 
         public (List<Card> Cards, Hands HandVaue, Values HighCard, Suits Suit) EvaluateHand(List<Card> cards)
@@ -646,10 +646,6 @@ namespace Texas_Heldom.Library.Classes
 
         //// Class end
     }
-
-
-
-
     /// namespace end 
 }
 
